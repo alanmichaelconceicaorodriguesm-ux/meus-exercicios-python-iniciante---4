@@ -1,9 +1,11 @@
 # meus-exercicios-python-iniciante - 4
 São questões simples para minha pessoa ter uma ser noção do meu progresso. 
 
-idade = int(input('Digite sua idade: ')
-altura = float(input('Digite sua altura: ')
-nome = str(input('Digite seu nome: ')
+nome = str(input("Qual o seu nome? "))
+idade = int(input("Qual a sua idade? "))
+altura = float(input("Qual a sua altura? "))
+
+print("—" * 30)
 
 print(nome)
 print(idade)
