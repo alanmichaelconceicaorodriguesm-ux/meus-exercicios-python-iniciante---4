@@ -1,6 +1,6 @@
-for n in range(1, 11):
-    print(n, end=" ")
-    if n >= 5:
-         break
-print("\nAcabou o Loop.")
-        
+n = int(input("Digite um número: "))
+fatorial = 1
+for i in range(1, n + 1):
+    fatorial *= i
+
+print(f"O fatorial de {n} é: {fatorial}")
